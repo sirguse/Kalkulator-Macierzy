@@ -167,7 +167,6 @@ def obliczdod():
     
 
 
-    
 
 
 

@@ -54,8 +54,14 @@ layoutData.addWidget(ObliczButton, 4, 0, 1, 2)
 label = QLabel()
 layoutData.addWidget(label, 5, 0, 1, 2)
 
+#Dodajemy okno do głównego układu
+layout.addWidget(Data, 1, 0, 1, 3)
 
+widget.setLayout(layout)
+window.setCentralWidget(widget)
 
+def dod():
+    
 
 
 
